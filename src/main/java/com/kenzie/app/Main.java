@@ -59,13 +59,14 @@ public class Main {
         //create variable that will hold the number I need to count to
         int max = 20;
         //create my starting point i am not to print 0
-        int counter = 1;
+        int index = 1;
         //while counter is less than or equal to max, keep counting
-        while (counter <= max) {
-            System.out.println(counter);
+        while (index <= max) {
+            System.out.print(index + " ");
             //index aka my counter
-            counter++;
+            index++;
         }
+        System.out.println();
 
 
     }
@@ -85,9 +86,10 @@ public class Main {
 
         while (index <= maxCount) {
             //print even numbers including 20 and 2 but not 0
-            System.out.println(index);
+            System.out.print(index + " ");
             index=index+2;
         }
+        System.out.println();
 
 
     }
@@ -106,10 +108,12 @@ public class Main {
         //count from 1
         int i = 1;
         while (i <= 19) {
-            System.out.println(i);
+            System.out.print(i + " ");
             //log only odd numbers to console include 1 and 9 but not 0
             i=i+2;
         }
+
+        System.out.println();
 
 
 
@@ -129,10 +133,11 @@ public class Main {
         int countFrom = 5;
 
         while (countFrom <= countTo) {
-            System.out.println(countFrom);
+            System.out.print(countFrom + " ");
             //log only multiples of 5
             countFrom=countFrom+5;
         }
+        System.out.println();
 
 
 
@@ -155,12 +160,12 @@ public class Main {
 
         while(a >= b){
 
-            System.out.println(a);
+            System.out.print(a + " ");
             //log my count from 20 to 1
             a=a-1;
 
-
         }
+        System.out.println();
 
 
 
@@ -182,10 +187,11 @@ public class Main {
 
         while(c >= d){
 
-            System.out.println(c);
+            System.out.print(c + " ");
             //log even numbers backwards include 20 but not 0
             c=c-2;
         }
+        System.out.println();
 
 
 
@@ -207,11 +213,11 @@ public class Main {
 
         while (e >= f) {
 
-            System.out.println(e);
+            System.out.print(e + " ");
             //log every odd number backwards do not include 0
             e=e-2;
-
         }
+        System.out.println();
 
 
 
@@ -233,11 +239,12 @@ public class Main {
 
         while (g >= h) {
 
-            System.out.println(g);
+            System.out.print(g + " ");
 
             //log multiples of 5 backwards
             g=g-5;
         }
+        System.out.println();
 
 
 
