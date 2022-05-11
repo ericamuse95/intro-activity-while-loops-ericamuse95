@@ -18,7 +18,7 @@ public class Main {
         // Write your code here
 
         int index = 0;
-        while (index < 2) {
+        while (index < 10) {
             System.out.print(index + " ");  // Log like this
             index++;
         }
@@ -37,12 +37,13 @@ public class Main {
         //
         // Write your code here
 
-//         index = 0;
-//         while (index < 15) {
-//           System.out.print(index + " ");
-//         }
-//
-//        System.out.println();
+         int index = 0;
+         while (index <= 15) {
+           System.out.print(index + " ");
+           index ++;
+         }
+
+        System.out.println();
     }
     public static void exerciseThree(){
         // ----------------------------------------------------------------------------------------------
@@ -53,6 +54,19 @@ public class Main {
         // - Hint: Look at the reading, there is an example of this.
         // - Hint 2: Remember to set your initial index value
         // Write your code here
+
+        //i need to count to 20
+        //create variable that will hold the number I need to count to
+        int max = 20;
+        //create my starting point i am not to print 0
+        int index = 1;
+        //while counter is less than or equal to max, keep counting
+        while (index <= max) {
+            System.out.print(index + " ");
+            //index aka my counter
+            index++;
+        }
+        System.out.println();
 
 
     }
@@ -65,6 +79,17 @@ public class Main {
         //   (This should include the number 20, and the number 2, but not include the number 0)
         //
         // Write your code here
+        //count to 20 create variable that will hold number to count to
+        int maxCount = 20;
+        //count from 2
+        int index = 2;
+
+        while (index <= maxCount) {
+            //print even numbers including 20 and 2 but not 0
+            System.out.print(index + " ");
+            index=index+2;
+        }
+        System.out.println();
 
 
     }
@@ -78,6 +103,19 @@ public class Main {
         //
         // Write your code here
 
+        //count to 19
+        int maxNumber = 19;
+        //count from 1
+        int i = 1;
+        while (i <= 19) {
+            System.out.print(i + " ");
+            //log only odd numbers to console include 1 and 9 but not 0
+            i=i+2;
+        }
+
+        System.out.println();
+
+
 
     }
     public static void exerciseSix(){
@@ -89,6 +127,19 @@ public class Main {
         //   (This should include the number 100, and the number 5)
         //
         // Write your code here
+        //count up to 100
+        int countTo = 100;
+        //start from 5
+        int countFrom = 5;
+
+        while (countFrom <= countTo) {
+            System.out.print(countFrom + " ");
+            //log only multiples of 5
+            countFrom=countFrom+5;
+        }
+        System.out.println();
+
+
 
 
     }
@@ -102,6 +153,21 @@ public class Main {
         //
         // Write your code here
 
+        //count from 20
+        int a = 20;
+        //count to 1
+        int b = 1;
+
+        while(a >= b){
+
+            System.out.print(a + " ");
+            //log my count from 20 to 1
+            a=a-1;
+
+        }
+        System.out.println();
+
+
 
     }
     public static void exerciseEight(){
@@ -113,6 +179,20 @@ public class Main {
         //   (This should include the number 20, but not include the number 0)
         //
         // Write your code here
+
+        //count from 20
+        int c = 20;
+        //count to 2
+        int d = 2;
+
+        while(c >= d){
+
+            System.out.print(c + " ");
+            //log even numbers backwards include 20 but not 0
+            c=c-2;
+        }
+        System.out.println();
+
 
 
     }
@@ -126,6 +206,20 @@ public class Main {
         //
         // Write your code here
 
+        //count form 19
+        int e = 19;
+        //count to 1
+        int f = 1;
+
+        while (e >= f) {
+
+            System.out.print(e + " ");
+            //log every odd number backwards do not include 0
+            e=e-2;
+        }
+        System.out.println();
+
+
 
     }
     public static void exerciseTen(){
@@ -137,6 +231,22 @@ public class Main {
         //   (This should include the number 100, but not include the number 0)
         //
         // Write your code here
+
+        //count from 100
+        int g = 100;
+        //count to 5
+        int h = 5;
+
+        while (g >= h) {
+
+            System.out.print(g + " ");
+
+            //log multiples of 5 backwards
+            g=g-5;
+        }
+        System.out.println();
+
+
 
 
     }
